@@ -59,7 +59,7 @@ theme = "raditian"
 
   sections = ["showcase", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
-  googleTagManagerID = "G-DD8E3D1JCK" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "G-6748YEGNVG" # Google Analytics works with Google Tag Manager
 
   [params.logo]
     text1 = "Marcelin"
