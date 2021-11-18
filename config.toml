@@ -21,13 +21,12 @@ theme = "raditian"
   [[params.plugins.js]]
   URL = "js/library/fontfaceobserver.js"
 
-
 # navigation
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
+  name = "Curriculum"
+  URL = "#education"
   weight = 2
 
   [[menu.header]]
@@ -40,10 +39,9 @@ theme = "raditian"
   URL = "#contact"
   weight = 4
 
-
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "Curriculum"
+  URL = "#education"
   weight = 2
 
   [[menu.footer]]
@@ -59,17 +57,20 @@ theme = "raditian"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
   googleTagManagerID = "G-DD8E3D1JCK" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
+    text1 = "Marcelin"
+    text2 = "SEBLE"
+
+  [params.favicon]
+    URL = "css/favicon.ico"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+      copyright = "© Margaal-2021 (Theme designed by Raditian)."
+      [params.footer.margaal_logo]
+        x = "img/general/logo.png"
+        _2x = "img/general/logo@2x.png"
+        alt = "logo"

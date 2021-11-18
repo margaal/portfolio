@@ -1,0 +1,149 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hi! Nice to see you"
+  subtitle: "I am Marcelin"
+  description: "I am studying <strong>Data Science</strong> at Sorbonne University in Paris. I am very passionate about everything related to data processing, artificial intelligence and more. Because, I think if someone has the right data, they can learn amazing things. So I chose to learn data science in order to help leaders make the right decisions to develop the profits of their business. You can check some of my works on my <a target='_blank' href='https://github.com/margaal'>github account</a>."
+  image:
+    x: "img/showcase/dsimg.png"
+    _2x: "img/showcase/dsimg@2x.png"
+  imageMobile:
+    x: "img/showcase/dsimg-mobile.jpg"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/margaal/"
+
+    - icon: "github"
+      URL: "https://github.com/margaal"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/margaal89"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/lynksreich/"
+
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Sorbonne University"
+      year: "2020-Now"
+      degree: "Master in Data Science"
+      location: "Paris, France"
+
+    - university: "ULCO(Université du Littoral Côte d'Opale)"
+      year: "2019-2020"
+      degree: "Bachelor degree in Computer Science"
+      location: "Calais, France"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "As a student I already had some experience because I had to stop studying for a year."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/margaal/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1576YpMw6ZQFxJwLAX0NoSQHleV1QRKAy/view?usp=sharing"
+
+  items:
+    - title: "Full stack developper in .Net"
+      company: "CIS SARL(Togo)"
+      URL: "https://cistogo.com/"
+      duration: "Feb 2019 - Aug 2019"
+      descriptions:
+        - item: "Development of a secure multiplatform application (web and mobile version) for inventory and order management."
+        - item: "Contribution to the design of a VAT tracking system allowing Togo's tax authorities to follow the VAT information related to taxpayer sales. I have much more work on the data integration and data visualization part via a web application."
+
+    - title: "Business Intelligence intern"
+      company: "Moov Togo(Togo)"
+      URL: "https://moov-africa.tg/"
+      duration: "Apr 2018 - Nov 2018"
+      descriptions:
+        - item: "Extraction and processing of transaction data phone numbers from Moov Togo subscribers."
+        - item: "Data integration in Data Warehouse"
+        - item: "Creation of an OLAP cube allowing to study the transactions(calls made and received, SMS, internet package purchase, unit credit purchase) by date, location, phone number and so on..."
+        - item: "Automation of extraction, processing and data integration(the objective was to synchronize the new arrival files from the retrieved information by relay antennas)."
+        - item: "Creation of a web application for monitoring and generating insights for administrative meetings."
+
+
+# Client & Work
+client_and_work:
+  title: "Works"
+  enable: true
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Your full name"
+    email: "Your email address"
+    message: "Your message"
+  # phone:
+  #   title: "Phone Number"
+  #   number: "+41 (44) 505 10 99"
+  email:
+    title: "Email"
+    email: '<a href="mailto:contact@margaal.com">contact@margaal.com</a>'
+  address:
+    title: "Address"
+    address: "77600, Bussy-Saint-Georges(Ile-de-France)"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

@@ -1,0 +1,25 @@
+/* You can customize theme styles here */
+.header .navbar-brand span:first-child{
+    color: #04009A;
+}
+.header .navbar-brand span:nth-child(2){
+    font-family: 'MonteCarlo', cursive;
+    color: #77ACF1;
+}
+.footer{
+    background-color: #04009A;
+}
+.section--contact{
+    background-image: none;
+    background-color: #77ACF1;
+}
+.btn-primary{
+    background-color: #04009A;
+    border-color: #04009A;
+}
+
+.description__experience{
+    font-size:14px;
+    font-weight:300;
+    color:#333;z-index:2;position:relative
+}
