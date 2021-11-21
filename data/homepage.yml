@@ -43,7 +43,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "As a student I already had some experience because I had to stop studying for a year."
+  description: ""
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -80,16 +80,61 @@ client_and_work:
   enable: true
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Autoencoder from scratch"
+      description: "Design Autoencoder from scratch. The goal of this project is to design from scratch a neural network layers(linear or convolutional (1D)) and activation functions to realize an auto-encoder."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "More"
+        URL: "https://github.com/margaal/autoencoder_from_scratch"
+      image:
+        x: "img/works/autoencoder.png"
+        _2x: "img/works/autoencoder@2x.png"
+      is_even: false
+      exist_url: true
+    - title: "Search engine using CACM collection"
+      description: "Academic project about information retrieval and the goal is to build a search engine using CACM data collection to train our models. We did indexation, create models(Okapi, Vector model), make evaluation and implement page rank algorithm."
+      button:
+        icon: "icon-arrow-right"
+        btnText: ""
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/search_engine.jpg"
+        _2x: "img/works/search_engine@2x.jpg"
       is_even: true
+      exist_url: false
+    - title: "Business Intelligence project"
+      description: "For this project, our goal is to collect data in order to find an answer for \"What is the most suitable US state for raising children?\". To do it we use Talend and Dataiku."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "More"
+        URL: "https://drive.google.com/file/d/13e851I_1zSbgbDmYsJhRJL8DauGyl9kM/view?usp=sharing"
+      image:
+        x: "img/works/family.png"
+        _2x: "img/works/family@2x.png"
+      is_even: false
+      exist_url: true
+    - title: "SAT Solver(CLI Version)"
+      description: "This is a small solver based on DPLL iterative algorithm. You can install(cli version) this solver and use it to figure out propositional satisfiability problem (SAT). For example, it can help you to establish championship planning for each team according to some constraints."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "More"
+        URL: "https://github.com/margaal/whale"
+      image:
+        x: "img/works/sat_solver.jpeg"
+        _2x: "img/works/sat_solver@2x.jpeg"
+      is_even: true
+      exist_url: true
+    - title: "ML Projects"
+      description: "All projects about machine learning I do is here."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "More"
+        URL: "https://github.com/margaal/ML_mini_projects"
+      image:
+        x: "img/works/jupyter.jpeg"
+        _2x: "img/works/jupyter@2x.jpeg"
+      is_even: false
+      exist_url: true
 
 
 # testimonial
