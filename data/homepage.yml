@@ -168,7 +168,8 @@ contact:
   enable: true
   title: "Contact"
   form:
-    action: "#"
+    action: "/"
+    method: "POST"
     full_name: "Your full name"
     email: "Your email address"
     message: "Your message"
