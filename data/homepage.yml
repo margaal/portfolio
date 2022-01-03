@@ -2,7 +2,7 @@
 showcase:
   enable: true
   title: "Hi! Nice to see you"
-  subtitle: "I am Marcelin"
+  subtitle: "I am Marcelin Seble"
   description: "I am studying <strong>Data Science</strong> at Sorbonne University in Paris. I am very passionate about everything related to data processing, artificial intelligence and more. Because, I think if someone has the right data, they can learn amazing things. So I chose to learn data science in order to help leaders make the right decisions to develop the profits of their business. You can check some of my works on my <a target='_blank' href='https://github.com/margaal'>github account</a>."
   image:
     x: "img/showcase/dsimg.png"
@@ -181,7 +181,7 @@ contact:
     email: '<a href="mailto:contact@margaal.com">contact@margaal.com</a>'
   address:
     title: "Address"
-    address: "77600, Bussy-Saint-Georges(Ile-de-France)"
+    address: "77600 (Ile-de-France)"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
