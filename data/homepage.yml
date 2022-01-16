@@ -42,7 +42,7 @@ education:
 # experience
 experience:
   enable: true
-  title: "Experience"
+  title: "Experiences"
   description: ""
   button:
     icon: "icon-linkedin-fill"
@@ -51,7 +51,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "https://drive.google.com/file/d/1576YpMw6ZQFxJwLAX0NoSQHleV1QRKAy/view?usp=sharing"
+    URL: "https://drive.google.com/file/d/1F5oRCERPi4M1ZzOJeJJChB5Hx0OO91Fr/view?usp=sharing"
 
   items:
     - title: "Full stack developper in .Net"
