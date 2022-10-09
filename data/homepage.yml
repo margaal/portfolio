@@ -17,11 +17,11 @@ showcase:
     - icon: "github"
       URL: "https://github.com/margaal"
 
-    - icon: "twitter"
-      URL: "https://twitter.com/margaal89"
+    # - icon: "kaggle"
+    #   URL: "https://twitter.com/margaal89"
 
-    - icon: "instagram"
-      URL: "https://www.instagram.com/lynksreich/"
+    # - icon: "instagram"
+    #   URL: "https://www.instagram.com/lynksreich/"
 
 
 # education
@@ -48,12 +48,21 @@ experience:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/margaal/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "https://drive.google.com/file/d/1F5oRCERPi4M1ZzOJeJJChB5Hx0OO91Fr/view?usp=sharing"
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download My Resume"
+  #   URL: "https://drive.google.com/file/d/1F5oRCERPi4M1ZzOJeJJChB5Hx0OO91Fr/view?usp=sharing"
 
   items:
+    - title: "Developer Analyst intern"
+      company: "BNP Paribas(France)"
+      URL: "https://banqueentreprise.bnpparibas/"
+      duration: "Mar. 2022 - Aug 2022"
+      descriptions:
+        - item: "Design a pipeline for extracting, processing and exploring large raw files containing billing data."
+        - item: "Create a dashboard to produce relevant indicators to analyze customer consumption on many dimensions such as time, products, countries, etc."
+        - item: "Attending in meetings on technology intelligence"
+
     - title: "Full stack developper in .Net"
       company: "CIS SARL(Togo)"
       URL: "https://cistogo.com/"
@@ -178,10 +187,10 @@ contact:
   #   number: "+41 (44) 505 10 99"
   email:
     title: "Email"
-    email: '<a href="mailto:contact@margaal.com">contact@margaal.com</a>'
+    email: '<a href="mailto:marcelinseble@gmail.com">marcelinseble@gmail.com</a>'
   address:
     title: "Address"
-    address: "77600 (Ile-de-France)"
+    address: "Ile-de-France"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
